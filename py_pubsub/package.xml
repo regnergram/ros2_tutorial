@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>py_pubsub</name>
+  <name>py_pubsub</name>      <!--der Name des Packages sollte mit dem Namen des Package-Ordners uebereinstimmen.-->
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="regnerju69567@th-nuernberg.de">student</maintainer>
+  <maintainer email="regnerju69567@th-nuernberg.de">Julian Regner</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
-  <depend>std_msgs</depend>
+  <depend>rclpy</depend>      <!--rclpy ist immer mit einzubinden!-->
+  <depend>std_msgs</depend>   <!--werden in den Knoten weitere ROS2-Packages benoetigt, so muessen die auch hier eingebunden werden.-->
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

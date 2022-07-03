@@ -1,0 +1,2 @@
+# ignoriert alle Ordner, die __pycache__ heissen
+*__pycache__
